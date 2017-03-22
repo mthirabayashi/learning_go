@@ -5,6 +5,8 @@ import "fmt"
 // print_nums will not be exported because it is lowercase
 // Testprintnums will be exported because it is uppercase
 
+var MyName = "Michael"
+
 func print_nums() {
   fmt.Printf("%d - %b - %x\n", 42, 42, 42)
   fmt.Printf("%#x\n", 42)
@@ -14,6 +16,7 @@ func print_nums() {
   // %x - hexadecimal
   // %#x - hexadecimal with 0x prepended
   // %#X - upper case hexadecimal with 0x prepended
+  fmt.Println(MyName)
 }
 
 func Testprintnums() {
