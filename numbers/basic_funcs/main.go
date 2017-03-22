@@ -7,6 +7,9 @@ func main() {
   b := 8
   fmt.Println(add(a,b))
   fmt.Println(subtract(a,b))
+  // can successfully reassign values
+  a = 2
+  b = 16
   fmt.Println(multiply(a,b))
   c := 20.0
   d := 8.0
